@@ -1,0 +1,432 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.w {
+	width: 1200px;
+	margin: auto;
+}
+
+body {
+	background-color: #f1f2f6;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #747d8c;
+}
+
+a:hover {
+	border-bottom: 2px solid #ffa502;
+	color: #ffa502;
+}
+
+span {
+	display: block;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.header {
+	height: 42px;
+	margin: 20px auto;
+}
+
+/*导航栏部分*/
+.nav {
+	float: left;
+	margin-left: 150px;
+}
+
+.nav ul li {
+	float: left;
+	margin: 0 30px;
+}
+
+.nav ul li a {
+	display: block;
+	height: 45x;
+	padding: 0 10px;
+	line-height: 42px;
+	font-size: 18px;
+}
+
+/*回到顶部按钮*/
+.totop {
+	position: fixed;
+	right: 10px;
+	bottom: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+/*主页部分*/
+.banner {
+	height: 555px;
+}
+
+/*左侧上欢迎词部分*/
+.hello {
+	float: left;
+	width: 375px;
+	height: 450px;
+}
+
+.hello h1 {
+	text-align: center;
+	margin-top: 150px;
+	font-size: 50px;
+	color: #ffa502;
+}
+
+.hello p {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	color: #ffa502;
+}
+
+/*左侧下名字部分*/
+.name {
+	margin: auto;
+	width: 300px;
+	margin-top: 200px;
+}
+
+.name h2 {
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 5px;
+}
+
+.name span {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 8px;
+}
+
+/*右侧图片部分*/
+.img1 {
+	float: right;
+	width: 805px;
+	height: 555px;
+}
+
+/*基本信息页面*/
+.jiben {
+	height: 500px;
+/*	background-color: pink;*/
+}
+
+/*基本信息左侧*/
+.jiben .left {
+	float: left;
+	height: 500px;
+	width: 400px;
+/*	background-color: white;*/
+}
+
+.jiben .left span {
+	height: 100px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 15px;
+}
+
+.jiben .left p {
+	float: right;
+	height: 330px;
+	width: 210px;
+	margin-top: 20px;
+	background-color: black;
+}
+
+.jiben .left p img {
+	width: 100%;
+	height: 100%;
+}
+
+/*基本信息中间*/
+.jiben .center {
+	position: relative;
+	float: left;
+	height: 500px;
+	width: 180px;
+	margin-left: 30px;
+}
+
+.jiben .center p {
+	position: absolute;
+	top: -135px;
+	width: 160px;
+	height: 235px;
+	background-color: black;
+}
+
+.jiben .center span {
+	display: block;
+	margin-top: 150px;
+}
+
+/*基本信息右侧*/
+.jiben .right {
+	float: right;
+	height: 500px;
+	width: 530px;
+}
+
+.jiben .right p {
+	height: 270px;
+	width: 400px;
+	margin-top: 70px;
+	background-color: black;
+}
+
+.jiben .right span {
+	margin-top: 40px;
+}
+
+.jiben .right a {
+	font-size: 12px;
+}
+
+/*教育经历部分*/
+.jiaoyu {
+	height: 530px;
+	margin-top: 125px;
+}
+
+.jiaoyu p {
+	float: left;
+	width: 830px;
+	height: 530px;
+	margin-left: 190px;
+	margin-right: 130px;
+	background-color: black;
+}
+
+.jiaoyu span {
+	float: left;
+	margin-top: 100px;
+	writing-mode: vertical-rl;
+	font-size: 14px;
+}
+
+/*主要课程部分*/
+.kecheng {
+	height: 890px;
+}
+
+/*主要课程左侧*/
+.kecheng .left {
+	float: left;
+}
+.kecheng .left span {
+	margin-left: 190px;
+	margin-top: 40px;
+	width: 400px;
+	font-size: 18px;
+}
+
+.kecheng .left div {
+	margin-top: 80px;
+	margin-left: 20px;
+	width: 570px;
+	height: 400px;
+}
+
+.kecheng .left p {
+	margin-top: 50px;
+	margin-left: 190px;
+	width: 390px;
+}
+
+.kecheng .left p a {
+	font-size: 12px;
+}
+
+/*主要课程右侧*/
+.kecheng .right {
+	float: right;2
+	width: 460px;
+	height: 890px;
+	margin-right: 20px;
+}
+.kecheng .right p {
+	width: 215px;
+	height: 500px;
+	margin-top: 40px;
+	margin-right: 250px;
+	background-color: black;
+}
+
+.kecheng .right div {
+	width: 475px;
+	height: 250px;
+	margin-top: 75px;
+	background-color: black;
+}
+
+/*主要作品部分*/
+.zuopin {
+	height: 550px;
+	margin-top: 30px;
+	color: #747d8c;
+}
+
+/*主要作品左侧*/
+.zuopin .left {
+	position: relative;
+	float: left;
+	width: 470px;
+	height: 425px;
+	margin-left: 20px;
+}
+
+.zuopin .left div {
+	float: left;
+	width: 200px;
+	height: 425px;
+	background-color: black;
+}
+
+.zuopin .left p {
+	float: left;
+	width: 250px;
+	height: 160px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background-color: black;
+}
+
+.zuopin .left span {
+	float: left;
+	margin-left: 20px;
+}
+
+.zuopin .left ul {
+	position: absolute;
+	bottom: 15px;
+	right: 325px;
+	display: inline;
+	background-color: white;
+	width: 100px;
+	border-radius: 15px;
+}
+
+.zuopin .left li {
+	float: left;
+}
+
+/*主要作品右侧*/
+.zuopin .right {
+	float: right;
+	width: 690px;
+}
+
+.zuopin .right div {
+	float: left;
+	width: 300px;
+	height: 425px;
+	background-color: black;
+}
+
+.zuopin .right p {
+	float: left;
+	margin-left: 20px;
+	width: 350px;
+	height: 275px;
+}
+
+.zuopin .right span {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.zuopin .right h1 {
+	display: block;
+	margin-top: 20px;
+}
+
+/*主要作品下面部分*/
+.zuopin .bottom {
+	position: relative;
+	float: left;
+}
+
+.zuopin .bottom div {
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	height: 137.5px;
+	width: 275px;
+	background-color: black;
+}
+
+/*组织经历部分*/
+.zuzhi {
+	width: 680px;
+	height: 400px;
+	margin-top: 100px;
+	float: center;
+}
+
+/*组织经历左侧*/
+.zuzhi div {
+	float: left;
+	width: 300px;
+	height: 330px;
+	margin-top: 30px;
+	background-color: black;
+}
+/*组织经历右侧*/
+.zuzhi ol {
+	float: right;
+	width: 300px;
+	margin: 30px 30px 0 30px;
+}
+
+.zuzhi li {
+	margin-bottom: 5px;
+}
+
+/*联系页面部分*/
+.lianxi {
+	position: relative;
+	height: 550px;
+	background-color: white;
+}
+
+.lianxi p {
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+.lianxi ul {
+	position: absolute;
+	right: 500px;
+	top: 300px;
+}
+
+.lianxi li {
+	margin-bottom: 5px;
+	text-align: center;
+	color: #f1f2f6;
+}
+
+.lianxi span {
+	float: right;
+	height: 80px;
+	font-weight: 700;
+}
