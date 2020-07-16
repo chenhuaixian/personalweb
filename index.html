@@ -5,7 +5,7 @@
 	<title>个人简介</title>
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
-<body onload="run();startCount()">
+<body onload="run();">
 	<!--头部区域开始-->
 	<div class="header w" id="top">
 		<!--导航栏部分-->
@@ -166,15 +166,5 @@
 		document.getElementById("pic").src = photos[counter];
 		//每次执行输出一张图片
 	}
-	var num=0;
-        var t;
-        var txtBody = document.getElementById("count");
-	function startCount(){
-                document.getElementById('count').value=num;
-                //在count中写入num
-                num=num+1;
-                t=setTimeout("startCount()",1000);
-                //每秒执行一次starttime函数
-                txtBody.innerHTML = "Time passed: "+ t+"s";
 </script>
 </html>
